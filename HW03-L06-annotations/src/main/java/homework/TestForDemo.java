@@ -7,6 +7,7 @@ public class TestForDemo {
         System.out.println("Before test");
     }
 
+
     @After
     public void afterAllMethod() {
         System.out.println("After test");
@@ -21,7 +22,6 @@ public class TestForDemo {
     @Test
     public void testMethod2() {
         System.out.println("Test2 running");
-        throw new RuntimeException();
 
     }
 
@@ -35,6 +35,12 @@ public class TestForDemo {
     @Test
     public void testMethod4() {
         System.out.println("Test4 running");
+
+    }
+
+    @Test
+    public void testMethod5() {
+        System.out.println("Test5 running");
 
     }
 }
